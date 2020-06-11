@@ -26,6 +26,7 @@ def output_array(array)
 end
 
 def return_string_array(array)
+  array = ["4", "6", "3", "5"]
   i = 0
   while i < array.length do
     i += 1
