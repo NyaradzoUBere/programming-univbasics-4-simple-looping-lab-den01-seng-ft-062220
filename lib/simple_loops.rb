@@ -19,8 +19,9 @@ end
 def output_array(array)
   i = 0
   while i < array.length do
-    puts array.push
+    puts array[count]
     i += 1
+  end
 end
 
 def return_string_array(array)
