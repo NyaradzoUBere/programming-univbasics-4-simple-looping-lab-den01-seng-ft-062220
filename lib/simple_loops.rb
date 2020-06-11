@@ -8,8 +8,6 @@ def loop_message_five_times(message)
 end
 
 def loop_message_n_times(message, number)
-  message = 'Hello Red Balloon.'
-  number= 9
   i = 0
   while i < number do
     puts message
@@ -26,11 +24,13 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array = ["4", "6", "3", "5"]
+  new_array = []
   i = 0
   while i < array.length do
+    new_array.push(array[i].to_s)
     i += 1
   end
+  new_array
 end
 
 
