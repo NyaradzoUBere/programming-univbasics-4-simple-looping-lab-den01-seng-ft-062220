@@ -7,10 +7,10 @@ def loop_message_five_times(message)
   end
 end
 
-def loop_message_n_times(message, int)
-  int= 6
+def loop_message_n_times(message, number)
+  number= 6
   i = 0
-  while i < int do
+  while i < number do
     puts message
     i += 1
   end
